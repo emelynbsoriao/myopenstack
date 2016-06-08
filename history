@@ -550,3 +550,37 @@ q
   547  git config --list
   548  git init
   549  history > history
+  550  cp ~/.ssh/id_rsa.pub id_rsa.pub
+  551  git status
+  552  git add history id_rsa.pub
+  553  git commit -m 'This is supposed to add my history to my repository'
+  554  git remote add origin https://github.com/emelynbsoriao/myopenstack.git
+  555  git push origin master
+  556  git status
+  557  git config --list
+  558  `git pull origin master`
+  559  ``git pull origin master`
+  560  cat id_rsa.pub
+  561  ls -al ~/.ssh
+  562  cat id_rsa.pub
+  563  ssh-keygen -t rsa -b 4096 -C "emelyn.b.soriao@accenture.com"
+  564  eval "$(ssh-agent -s)"
+  565  $ ssh-add ~/.ssh/id_rsa
+  566  ssh-add ~/.ssh/id_rsa
+  567  $ clip < ~/.ssh/id_rsa.pub
+  568   clip < ~/.ssh/id_rsa.pub
+  569  clip < ~/.ssh/id_rsa.pub
+  570  ls -al ~/.ssh
+  571  cd id.rsa.pub
+  572  $ clip < ~/.ssh/id_rsa.pub
+  573  cat /.ssh/id_rsa.pub
+  574  cat /Users/emelynbsoriao/.ssh/id_rsa.pub
+  575  cat /Users/emelynbsoriao
+  576  $ clip < ~/.ssh/id_rsa
+  577  cat /.ssh/id_rsa
+  578  $ ssh-add ~/.ssh/id_rsa
+  579  ssh-add ~/.ssh/id_rsa
+  580  clip < ~/.ssh/id_rsa.pub
+  581  $ clip < /root/.ssh/id_rsa.pub
+  582  ls -al ~/.ssh
+  583  history > history
